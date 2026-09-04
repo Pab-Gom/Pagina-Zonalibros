@@ -8,24 +8,6 @@ body {
     background: linear-gradient(#0E1918, #0E1918, black);
 }
 
-header{
-}
-
-#navegacion {
-    background-color: #0E1918;
-    padding: 20px 60px;
-    border-radius: 15px;
-    border: 2px solid #DBBF90;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-    width: 99%;                     
-    max-width: 1500px;              
-    margin: 0 auto;                 
-    box-sizing: border-box;         
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;            
-}
-
 #navegacion a {
     color: #DBBF90;
     text-decoration: none;
@@ -41,10 +23,55 @@ header{
     color: #0E1918;
     margin-top: 20px;
     background-color: #DBBF90;
+    border-color: #FAEDCE;
 
 }
 
 .btn-dark:hover{
     color: #0E1918;
+    border-color: #FAEDCE;
     background: linear-gradient(#DBBF90,#B1783C)
 }
+
+.recuadro-1{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #0E1918;
+    padding: 5px 20px 20px;
+    border-top: 2px solid #DBBF90;
+    border-bottom: 2px solid #DBBF90;
+}
+
+.recuadro-2 {
+    background-color: #0E1918;
+    padding: 5px 60px;
+    border-radius: 15px;
+    border: 2px solid #DBBF90;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    width: 99%;                     
+    max-width: 1500px;   
+    margin-top: 10px;           
+    margin-bottom: 10px;                
+    box-sizing: border-box;         
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+}
+
+.recuadro-3 {
+    padding: 20px;
+    width: 100%;           
+    text-align: center;    
+}
+
+.recuadro-libros{
+    color: #FAEDCE;
+}
+
+footer {
+    background-color: #FAEDCE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
