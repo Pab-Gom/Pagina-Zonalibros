@@ -15,7 +15,11 @@
         <img src="images/portada.png" class="img-fluid w-100" alt="Portada Zona Libros">
         <nav id="intro" class="d-flex justify-content-between recuadro-1">
             <a href="#home" class="btn btn-dark px-5 btn-lg">Home</a>
-            <a href="#login" class="btn btn-dark px-5 btn-lg">Login</a>
+            <a href="#login">
+                <button id="boton-login" class="btn btn-dark px-5 py-2 boton-login">
+                    Login
+                </button>
+            </a>
         </nav>
         </section>
         <section id="navegacion" class="container d-flex justify-content-between recuadro-2">          
@@ -29,6 +33,43 @@
     </header>
 
     <main>
+        <section id="inicio-sesion">
+            <div id="inicio-datos" class="alert alert-success mt-3 d-none login-usuario">
+                <h3>Login Usuario</h3>
+                <div class="recuadro-4">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-8 col-lg-6">
+                            <form action="" id="form-login" class="recuadro-4">
+                                <div class="mb-3">
+                                    <label for="nombre" class="form-label">
+                                        Correo
+                                    </label>
+                                    <input type="text"
+                                    id="correo"
+                                    class="form-control"
+                                    placeholder="Ingrese su correo">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="contrasena" class="form-label">
+                                        Contraseña
+                                    </label>
+                                    <input type="text"
+                                    id="contrasena"
+                                    class="form-control"
+                                    placeholder="Ingrese su contrasena">
+                                </div>
+                                
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <button id="registro" class="btn btn-dark px-5 py-2 boton-registro">
+                    Registrarse
+                </button>
+            </div>
+            
+        </section>
+
         <section id="libros" class="recuadro-1">
             <div class="recuadro-libros">
                 <div class="portada-libros">

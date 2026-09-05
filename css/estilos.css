@@ -24,7 +24,6 @@ body {
     margin-top: 20px;
     background-color: #DBBF90;
     border-color: #FAEDCE;
-
 }
 
 .btn-dark:hover{
@@ -64,6 +63,10 @@ body {
     text-align: center;    
 }
 
+.recuadro-4{
+    text-align: left;
+}
+
 .recuadro-libros{
     color: #FAEDCE;
 }
@@ -75,3 +78,22 @@ footer {
     justify-content: center;
 }
 
+.login-usuario{
+    background-color: #FAEDCE;
+    margin: 10px;
+    text-align: center;
+    font-size: large;
+}
+
+.boton-login{
+    color: #0E1918;
+    background-color: #DBBF90;
+    border-color: #FAEDCE;
+}
+
+.boton-registro{
+    color: #0E1918;
+    background-color: #DBBF90;
+    border-color: #FAEDCE;
+
+}
